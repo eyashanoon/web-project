@@ -1,0 +1,527 @@
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+/* Remove arrows */
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+}
+
+/* Handle (thumb) */
+::-webkit-scrollbar-thumb {
+    background: rgba(100,100,100,0.7);
+    border: rgba(100,100,100,1) 1px solid;
+    border-radius: 10px;
+}
+
+/* Handle (thumb) on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #333;
+}
+*{
+    font-family: Merriweather, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p, h1, h2{
+    font-family: Merriweather, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background-color: white;
+    overflow: hidden;
+}
+a:visited{
+    color: black;
+}
+.page{
+    background-color: white;
+    min-width: 100vw;
+
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(180deg, white, #F3F3F3);
+    border-bottom: #E3E3E3 2px solid;
+}
+.center{
+    overflow: auto;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.project-info{
+    width: 340px;
+    min-width: 340px;
+    height: 650px;
+    background-color: #E3E3E3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+    border-radius:10px;
+    margin: 10px 10px 10px -20px;
+}
+.content{
+    min-width: 1100px;
+    height: 90vh;
+}
+.ip{
+    width: 250px;
+    max-height: 250px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: clip;
+    background-color: white;
+    margin-top: -50px;
+    border: #E3E3E3 2px solid;
+}
+.ip img{
+    width: 250px;
+    height: 250px;
+    display: block;
+}
+.coip{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+.info{
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 280px;
+    margin: -40px 20px 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #F3F3F3;
+    padding: 10px;
+}
+.project-sidebar-uli{
+    list-style-type: none;
+}
+.project-sidebar-p1{
+    font: bold 15px Merriweather;
+}
+.project-sidebar-p2{
+    margin-bottom: 15px;
+}
+.project-change-button{
+    font-size: 15px;
+    padding: 3px;
+    margin: 0 5px 5px 90px;
+    border-radius: 50px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+}
+.projects{
+    width: 1050px;
+    justify-content: center;
+}
+.project-offers-label-div{
+    width: 1080px;
+    margin: 20px 0 20px 20px;
+    background-color: #E3E3E3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+    border-radius:10px;
+    height: 100%;
+    text-align: center;
+}
+.all-offers-div{
+    min-width: 1060px;
+    height: 540px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 10px;
+    background-color: #E3E3E3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+    border-radius:10px;
+    margin: 20px;
+}
+.one-offer-div{
+    background-color: #F3F3F3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+    min-width: 98.25%;
+    height: 200px;
+    border-radius:10px;
+    display: flex;
+}
+.image-in-offers-div{
+    border-radius: 100%;
+    text-align: center;
+    height: 170px;
+    width: 170px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.image-in-offers{
+    width: 170px;
+    height: 170px;
+}
+.info-but-img-in-offers{
+    width: 700px;
+}
+.offer-name-div{
+    display: flex;
+    margin: 20px;
+    font-size: 40px;
+    height: 20%;
+    width: 79%;
+    border-radius: 10px;
+}
+.info-in-offers-lv2-div{
+    display:flex;
+    margin: 20px;
+    margin-top: 50px;
+    height: 70%;
+    width: 79%;
+}
+.info-lv2-in-offers{
+    font-size: 20px;
+    height: 100%;
+    width: 32.85%;
+}
+
+.edit-info-div{
+    background-color: white;
+    border-radius: 15px;
+    height: auto;
+    margin: 50px;
+    padding: 50px;
+}
+.edit-info-h1{
+}
+.edit-info-p{
+}
+.edit-info-user-div{
+    background-color: #E3E3E3;
+    border-radius: 15px;
+    padding: 25px;
+    margin-top: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+}
+.edit-info-user-image-div{
+    margin-top: 25px;
+    padding-bottom: 15px;
+    align-items: center;
+    display: flex;
+    border-bottom: darkgray 1px solid;
+}
+.edit-info-user-image{
+    width: 50px;
+    border: darkgray 1px dashed;
+    border-radius: 50px;
+}
+
+.edit-info-user-name-div{
+    border-bottom: darkgray 1px solid;
+    align-items: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+.edit-info-user-name-p{
+    width: 175px;
+}
+.edit-info-user-name{
+    margin-left: 25px;
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+}
+.edit-info-user-add-button{
+    margin-left: 2px;
+    width: 50px;
+    height: 22px;
+    border-radius: 5px;
+}
+.tooltip{
+    width: 15px;
+    height: 15px;
+}
+.edit-info-textarea{
+    height: 75px;
+    width: 100%;
+    margin-left: 25px;
+    border-radius: 5px;
+    border: black 2px solid;
+}
+.edit-info-buttons{
+    font-size: 17px;
+    width: 150px;
+    height: 40px;
+    margin-left: 20px;;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.project-offer-details-div{
+    max-height: 500px;
+    min-width: 1428px;
+    max-width: 1428px;
+    display: flex;
+    background-color: white;
+    margin: 10px 30px 0;
+    border-radius: 20px;
+}
+.project-offer-details-investor-div{
+    width: 25%;
+    min-height: 300px;
+    margin: 10px 20px 0 10px;
+    border-radius: 10px 10px 0 0;
+    background-color: #F3F3F3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+}
+.project-offer-details-investor-div{
+}
+.project-offer-details-investor-img-div{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: 15px 15px 15px 45px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+}
+.project-offer-details-investor-img{
+    width: 100%;
+    height: 100%;
+}
+.project-offer-details-offer-div{
+    max-height: 520px;
+    min-height: 520px;
+    width: 75%;
+    margin: 10px 10px 0 10px;
+    border-radius: 10px;
+    background-color: #F3F3F3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+}
+.project-offer-details-investor-info-div{
+    max-width: 285px;
+    max-height: 160px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+}
+.project-offer-details-investor-info-lv2-div{
+    display: flex;
+    margin-top: -25px;
+}
+.project-offer-details-investor-info-p1{
+    width: 150px;
+    font: bold 20px Calibri;
+}
+.project-offer-details-investor-info-p2{
+    max-width: 125px;
+    margin-top: 23px;
+    margin-left: -50px;
+}
+.project-offer-details-header{
+    align-items: center;
+    text-align: center;
+}
+.project-offer-details-offer-details-div{
+    min-width: 100%;
+    height: 45%;
+    margin-top: -30px;
+    display: flex;
+}
+.project-offer-details-offer-detail-div{
+    width: 25%;
+    max-height: 100%;
+    margin: 50px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.project-offer-details-offer-detail-p1{
+    height: 50%;
+    font: bold 20px Merriweather;
+    margin-top: 10px;
+}
+.project-offer-details-offer-detail-p2{
+    margin-top: -30px;
+    height: 50%;
+    font: bold 19px Times;
+    color: #333333;
+}
+.project-offer-details-comment-div{
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+.project-offer-details-comment-h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.project-offer-details-comment-p{
+    min-height: 70px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    overflow: auto;
+}
+.project-offer-label{
+    min-width: 1400px;
+    text-align: center;
+    margin-top: 25px;
+}
+.project-offer-details-investor-more-div{
+    min-width: 1408px;
+    height: 0;
+    background-color: #F3F3F3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+    margin: -30px 40px 40px;
+    border-radius: 20px;
+    z-index: 2;
+    overflow: hidden;
+}
+.project-offer-details-investor-expand-shrink-button-div{
+    margin-left: 40px;
+    width: 397px;
+}
+.project-offer-details-investor-expand-shrink-button{
+    width: 345px;
+    height: 30px;
+    background-color: #F3F3F3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+    border: 0;
+    z-index: 1;
+    border-radius: 0 0 10px 10px;
+}
+.project-offer-details-investor-more-category-div{
+    width: 33%;
+    margin: 80px 15px 15px 50px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+}
+.project-offer-details-investor-more-img{
+    max-height: 400px;
+    max-width: 400px;
+}
+.project-offer-details-investor-more-img-div{
+    margin: 125px 50px 50px;
+    border-radius: 2000px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+    max-height: 400px;
+    max-width: 400px;
+}
+.project-offer-details-investor-more-name-div{
+    border-top: darkgray 1px solid;
+    align-items: center;
+    margin-top: -10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+.project-offer-details-investor-more-p1{
+    font: bold 17px Merriweather;
+    width: 40%;
+    margin-right: 10px;
+}
+.project-offer-details-investor-more-p2{
+    margin-left: 10px;
+}
+.project-offer-details-investor-more-category-h2{
+    margin-bottom: 30px;
+}
+.head{
+    width: 85%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-image: linear-gradient(180deg, white, #F3F3F3);
+    border-bottom: #E3E3E3 2px solid;
+    border-radius: 10px;
+    position: sticky;
+}
+.head ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.head ul li a{
+    text-decoration: none;
+    color: black;
+    font-size:25px;
+    font-weight:bold ;
+    cursor: pointer;
+}
+.head ul li::after{
+    content: " ";
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    transition: 0.5s;
+}
+.head ul li:hover::after{
+    width: 100%;
+    left: 0;
+
+}
+.head ul li a:hover{
+    color: #009688;
+}
+
+.logo img{
+    width: 110px;
+    color: black;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.accept-decline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.accept-decline-buttons{
+    height: 50px;
+    width: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 30px;
+}
+.labels-name{
+    min-width: 450px;
+    margin-right: 200px;
+    font-size: 35px;
+    margin-top: 10px;
+}
+.labels-status{
+     font-size: 30px;
+ }
+
+
+
+
